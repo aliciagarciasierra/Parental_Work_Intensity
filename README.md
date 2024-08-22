@@ -1,12 +1,11 @@
 # Parental Work Intensity and Child Development
 This is a replication package for the paper "The Protective Role of Parental Work Intensity for Children in Poverty".
 
-*Data* :
-
+**Data** 
 
 The files "children.dat", "mothers.dat", and "motherstwo.dat" can be used to extract the data using the NLS Investigator platform.
 
-*Code*
+**Code**
 
 1_MASTER_NLS.R - extracts the relevant data, prepares and cleans the variables and extracts the analytical sample.
 
