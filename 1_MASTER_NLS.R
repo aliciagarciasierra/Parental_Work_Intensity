@@ -60,7 +60,7 @@ signif_codes <- c( "***" = 0.01, "**" = 0.05, "*" = 0.1)
 # setwd()
 
 
-new_data <- read.table('inworkpovertychildren.dat', sep=' ')
+new_data <- read.table('children.dat', sep=' ')
 names(new_data) <- c('C0000100',
                      'C0000200',
                      'C0005300',
@@ -2434,7 +2434,7 @@ summary(new_data_general )
 # Set working directory
 # setwd()
 
-new_data <- read.table('regularcare.dat', sep=' ')
+new_data <- read.table('motherstwo.dat', sep=' ')
 names(new_data) <- c('C0000100',
                      'C0000200',
                      'C0356400',
@@ -2724,7 +2724,7 @@ data<-data[myvars]
 # setwd()
 
 
-new_data <- read.table('inworkpovertymothers.dat', sep=' ')
+new_data <- read.table('mothers.dat', sep=' ')
 names(new_data) <- c('G0063800',
                      'G0065100',
                      'G0066400',
